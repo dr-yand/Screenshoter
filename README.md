@@ -17,3 +17,8 @@ Then add the library in the dependencies block of the module's build.gradle file
 ```
 implementation "com.kritsin.screenshoter:Screenshoter:1.0@aar"
 ```
+
+Now you can you Screenshoter:
+```
+Bitmap bitmap = Screenshoter.getScreenshot(<activity>)
+```
